@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-wild",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "wild's ESLint config",
   "main": "index.js",
   "repository": {

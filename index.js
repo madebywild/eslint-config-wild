@@ -40,20 +40,19 @@ module.exports = {
         ]
       }
     ],
+    "no-plusplus": 0,
+    "prefer-destructuring": 0,
+    "no-unused-vars": 0,
     "arrow-parens": 0,
-    "arrow-body-style": [
-      "error",
-      "as-needed", {
-        requireReturnForObjectLiteral: true
-      }
-    ],
+    "arrow-body-style": 0,
     "comma-dangle": 0,
     "space-before-function-paren": [
       "warn",
-      "always"
+      "never"
     ],
     "block-spacing": 0,
     "object-curly-spacing": 0,
+    "object-curly-newline": 0,
     "no-param-reassign": [
       "error", {
         props: false
@@ -72,6 +71,7 @@ module.exports = {
     ],
     "no-multi-assign": 0,
     "jsx-a11y/anchor-is-valid": 0,
+    "react/no-danger": 0,
     "react/no-unescaped-entities": 0,
     "react/prop-types": 0,
     "react/prefer-stateless-function": 0,

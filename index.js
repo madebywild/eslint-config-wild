@@ -90,13 +90,6 @@ module.exports = {
     "import/no-unresolved": 0,
     "import/no-webpack-loader-syntax": 0,
     "import/prefer-default-export": 0,
-    // "jsx-a11y/anchor-is-valid": 0,
-    // "jsx-a11y/aria-props": 2,
-    // "jsx-a11y/heading-has-content": 0,
-    // "jsx-a11y/label-has-for": 2,
-    // "jsx-a11y/mouse-events-have-key-events": 2,
-    // "jsx-a11y/role-has-required-aria-props": 2,
-    // "jsx-a11y/role-supports-aria-props": 2
     "jsx-a11y/accessible-emoji": 0,
     "jsx-a11y/alt-text": 0,
     "jsx-a11y/anchor-has-content": 0,
@@ -128,6 +121,9 @@ module.exports = {
     "jsx-a11y/role-has-required-aria-props": 0,
     "jsx-a11y/role-supports-aria-props": 0,
     "jsx-a11y/scope": 0,
-    "jsx-a11y/tabindex-no-positive": 0
+    "jsx-a11y/tabindex-no-positive": 0,
+    "react/sort-comp": 0,
+    "no-mixed-operators": 0,
+    "function-paren-newline": 0,
   }
 };

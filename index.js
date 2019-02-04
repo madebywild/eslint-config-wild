@@ -45,7 +45,10 @@ module.exports = {
     "no-unused-vars": 0,
     "arrow-parens": 0,
     "arrow-body-style": 0,
-    "comma-dangle": 0,
+    "comma-dangle": [
+      "warn",
+      "always-multiline"
+    ],
     "space-before-function-paren": [
       "warn",
       "never"
@@ -90,6 +93,15 @@ module.exports = {
     "import/no-unresolved": 0,
     "import/no-webpack-loader-syntax": 0,
     "import/prefer-default-export": 0,
+    "import/no-anonymous-default-export": ["error", {
+      "allowArray": true,
+      "allowArrowFunction": true,
+      "allowAnonymousClass": false,
+      "allowAnonymousFunction": true,
+      "allowCallExpression": true,
+      "allowLiteral": true,
+      "allowObject": true
+    }],
     "jsx-a11y/accessible-emoji": 0,
     "jsx-a11y/alt-text": 0,
     "jsx-a11y/anchor-has-content": 0,

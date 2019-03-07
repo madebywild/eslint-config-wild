@@ -1,14 +1,18 @@
 
 module.exports = {
-  parser: "babel-eslint",
-  extends: "airbnb",
+  parser: "@typescript-eslint/parser",
+  extends: [
+    "airbnb",
+    "plugin:@typescript-eslint/recommended",
+  ],
   env: {
     browser: true,
     node: true,
     es6: true
   },
   plugins: [
-    "react"
+    "react",
+    "@typescript-eslint",
   ],
   parserOptions: {
     ecmaVersion: 6,
@@ -142,5 +146,16 @@ module.exports = {
     "react/sort-comp": 0,
     "no-mixed-operators": 0,
     "function-paren-newline": 0,
+    "@typescript-eslint/indent": ["error", 2],
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/interface-name-prefix": ["error", "always"],
+    "@typescript-eslint/member-delimiter-style": ["error", {
+      "multiline": {"delimiter": "semi", "requireLast": true},
+      "singleline": {"delimiter": "comma", "requireLast": false}
+    }],
+    "@typescript-eslint/no-var-requires": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-use-before-define": ["error", {"functions": false, "classes": true, "variables": true, "typedefs": true}],
+    "@typescript-eslint/no-inferrable-types": "off",
   }
 };

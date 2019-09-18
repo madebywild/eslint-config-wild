@@ -52,7 +52,11 @@ module.exports = {
     ],
     "space-before-function-paren": [
       "warn",
-      "never"
+      {
+        "anonymous": "never",
+        "named": "never",
+        "asyncArrow": "always"
+      }
     ],
     "block-spacing": 0,
     "object-curly-spacing": 0,
